@@ -1,6 +1,6 @@
 [[source]]
 url = "https://pypi.org/simple"
-verify_https = true
+verify_ssl = true
 name = "pypi"
 
 [packages]
@@ -8,6 +8,7 @@ swiftpath = { path = ".", editable = true, extras = ["lint", "release", "dev", "
 
 [dev-packages]
 towncrier = '*'
+requests = "==2.23.0"
 sphinx = '*'
 sphinx-rtd-theme = '*'
 

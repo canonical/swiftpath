@@ -1,0 +1,1 @@
+Created ``pathlib`` API compliant initial release of ``swiftpath`` for interfacing with the ``swift`` object store.
